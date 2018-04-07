@@ -1,0 +1,22 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aermin/react-practice.git"
+  },
+  "author": "aermin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aermin/react-practice/issues"
+  },
+  "homepage": "https://github.com/aermin/react-practice#readme",
+  "devDependencies": {
+    "webpack": "^3.11.0"
+  }
+}
