@@ -65,10 +65,17 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-document.getElementById('app').innerHTML = "Webpack works"
+"use strict";
 
+
+// document.getElementById('app').innerHTML = "Webpack works"
+/*使用es6的箭头函数*/
+var func = function func(str) {
+	document.getElementById('app').innerHTML = str;
+};
+func('我现在在使用Babel!');
 
 /***/ })
 /******/ ]);
